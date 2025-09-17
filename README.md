@@ -21,5 +21,12 @@
 - ✅ Tensor operations working correctly
 - ✅ GPU-accelerated deep learning ready
 
+## GPU Test Result
+
+Below is the verification of PyTorch with CUDA on my device:
+
+![PyTorch CUDA Check](images/pytorch_result.png)
+
+
 ## Quick Environment Check
 Run the code -> check_torch.py
