@@ -12,7 +12,7 @@ try:
         print("CUDA is not available. Using CPU.")
     
     # Create a simple tensor to test basic functionality
-    test_tensor = torch.tensor([1, 2, 3, 4, 5])
+    test_tensor = torch.tensor([1, 2, 3, 4, 5], device='cuda')
     print(f"✓ Test tensor created: {test_tensor}")
     print(f"Tensor shape: {test_tensor.shape}")
     print(f"Tensor device: {test_tensor.device}")
