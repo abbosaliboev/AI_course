@@ -5,7 +5,7 @@ import tempfile
 import torchaudio
 
 
-import boto3
+import week3.boto3 as boto3
 import matplotlib.pyplot as plt
 import requests
 from botocore import UNSIGNED
