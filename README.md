@@ -31,25 +31,3 @@ Below is the verification of PyTorch with CUDA on my device:
 ## Quick Environment Check
 Run the code -> check_torch.py
 
-# Week 3 - PyTorch Audio I/O
-
-This week’s task is based on the official [PyTorch Audio I/O Tutorial](https://docs.pytorch.org/audio/stable/tutorials/audio_io_tutorial.html).
-
-## ✅ What I did
-- Downloaded example audio files using `torchaudio.utils.download_asset`
-- Loaded audio with `torchaudio.load`
-- Displayed **waveform** and **spectrogram** using `matplotlib`
-
-## 📊 Results
-Waveform:  
-<img src="./waveform.png" alt="waveform" width="400"/>
-
-Spectrogram:  
-<img src="./spectrogram.png" alt="spectrogram" width="400"/>
-
-## 📂 Files
-- `audio_io_demo.py` → main code
-- `waveform.png` → waveform plot
-- `spectrogram.png` → spectrogram plot
-
----
