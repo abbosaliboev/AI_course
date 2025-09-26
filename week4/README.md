@@ -27,9 +27,6 @@ Dataset: sample audio files provided via LMS (`audio_dataset/` folder).
 
 ---
 
-
----
-
 ## 🖼️ Results
 
 ### 1. Waveform & Spectrogram
