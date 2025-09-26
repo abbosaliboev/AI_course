@@ -68,7 +68,7 @@ All four audio files were successfully resampled:
 
 Result summary (shapes printed in console) is also visualized here:
 <p align="center">
-  <img src="images/resampling_results.JPG" width="500"/>
+  <img src="images/resampling_results.JPG" width="250"/>
 </p>
 
 ---
