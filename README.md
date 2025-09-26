@@ -6,7 +6,7 @@ Each week includes code, results, and a README file explaining the task.
 ---
 
 **Name:** Abbos Aliboev  (알리)  
-**ID:** [2023041080]  
+**ID:** 2023041080  
 **Course:** 2025-2 Artificial Intelligence  
 
 ### Hardware
@@ -28,8 +28,7 @@ Each week includes code, results, and a README file explaining the task.
 - **Hardware:** NVIDIA TITAN RTX  
 - **CUDA Support:** Available (1 device)  
 - **Python:** 3.10.x  
-- **PyTorch:** 2.5.1+cu124  
-- **Jupyter Notebook:** Configured and operational  
+- **PyTorch:** 2.5.1+cu124   
 
 ---
 
