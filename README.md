@@ -1,16 +1,17 @@
-# AI_course
+# <img src="https://cdn-icons-png.flaticon.com/512/10644/10644640.png" alt="logo" width="40" style="vertical-align:middle;"/> AI_course
 
-**Name:** Abbos Aliboev  (알리)
+This repository contains my weekly homework submissions for the **2025-2 Artificial Intelligence** course.  
+Each week includes code, results, and a README file explaining the task.
+
+---
+
+**Name:** Abbos Aliboev  (알리)  
 **ID:** [2023041080]  
 **Course:** 2025-2 Artificial Intelligence  
 
 ### Hardware
 - GPU: NVIDIA TITAN RTX
 - CUDA Support: Available (1 device)
-# AI_course
-
-This repository contains my weekly homework submissions for the **2025-2 Artificial Intelligence** course.  
-Each week includes code, results, and a README file explaining the task.
 
 ---
 
