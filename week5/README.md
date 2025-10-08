@@ -23,8 +23,7 @@
 
 - File: `audio_dataset/custom_audio_week5.wav`  
 - Format: WAV, 16kHz, mono  
-- Content: _"Hi, my name is Ali"_ (or similar)
-
+- Content: _"Hi, my name is Ali"_
 ---
 
 ## 🖼️ Results
