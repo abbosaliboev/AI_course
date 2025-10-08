@@ -2,7 +2,7 @@
 
 > 🔊 This week’s task was to perform **speech recognition using the Wav2Vec2 model** from [PyTorch torchaudio tutorial](https://pytorch.org/audio/stable/tutorials/speech_recognition_pipeline_tutorial.html), and apply it on both:
 - the **given sample VOiCES audio**
-- and a **custom English audio** file recorded by the student.
+- and a **custom English audio** file recorded by me.
 
 ---
 
