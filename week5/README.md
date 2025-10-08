@@ -33,21 +33,21 @@
 
 | Layer | Image |
 |-------|-------|
-| Layer 1 | <img src="./custom_feat_layer_01.png" width="500"/> |
-| Layer 6 | <img src="./custom_feat_layer_06.png" width="500"/> |
-| Layer 12 | <img src="./custom_feat_layer_12.png" width="500"/> |
+| Layer 1 | <img src="./images/custom_feat_layer_01.png" width="500"/> |
+| Layer 6 | <img src="./images/custom_feat_layer_06.png" width="500"/> |
+| Layer 12 | <img src="./images/custom_feat_layer_12.png" width="500"/> |
 
 📁 All layers saved as: `custom_feat_layer_01.png` to `custom_feat_layer_12.png`
 
 ---
 
 ### ✅ Classification Logits (tutorial audio)
-<img src="./classification_logits.png" width="700"/>
+<img src="./images/classification_logits.png" width="700"/>
 
 ---
 
 ### ✅ All Tutorial Layers (official VOiCES sample)
-<img src="./all_layers_features.png" width="700"/>
+<img src="./images/all_layers_features.png" width="700"/>
 
 ---
 
@@ -65,7 +65,7 @@ HI|MY|NAME|IS|ALI
 ---
 
 ## 🧩 Additional Experiment: Mel Spectrogram
-<img src="./custom_mel_spec.png" width="700"/>
+<img src="./images/custom_mel_spec.png" width="700"/>
 
 ---
 
