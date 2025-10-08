@@ -17,9 +17,9 @@ Each week includes code, results, and a README file explaining the task.
 
 ## ✅ Completed Homeworks
 
-- **[Week 1](./week1/README.md)** → *(introductory task, setup or basic AI exercise)*  
-- **[Week 2](./week2/README.md)** → PyTorch environment setup, CUDA check  
-- **[Week 3](./week3/README.md)** → PyTorch Audio I/O, waveform & spectrogram visualization  
+- **[Week 2](./week1/README.md)** → *(introductory task, setup or basic AI exercise)*  
+- **[Week 3](./week2/README.md)** → PyTorch environment setup, CUDA check  
+- **[Week 4](./week3/README.md)** → PyTorch Audio I/O, waveform & spectrogram visualization  
 
 ---
 
