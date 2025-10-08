@@ -20,6 +20,7 @@ Each week includes code, results, and a README file explaining the task.
 - **[Week 2](./week1/README.md)** → *(introductory task, setup or basic AI exercise)*  
 - **[Week 3](./week2/README.md)** → PyTorch environment setup, CUDA check  
 - **[Week 4](./week3/README.md)** → PyTorch Audio I/O, waveform & spectrogram visualization  
+- **[Week 5](./week5/README.md)** → Speech Recognition with **Wav2Vec2**, Custom Audio Transcription, Mel Spectrogram, Transformer Layer Feature Extraction
 
 ---
 
