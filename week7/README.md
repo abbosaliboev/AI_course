@@ -35,7 +35,7 @@ week7/
 
 ## Results
 
-<img src="images/train_results.png" width="600px">
+<img src="images/train_results.png" width="800px">
 
 
 ### Sample Dataset Visualization
