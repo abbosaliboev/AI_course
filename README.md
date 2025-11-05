@@ -21,6 +21,7 @@ Each week includes code, results, and a README file explaining the task.
 - **[Week 3](./week2/README.md)** → PyTorch environment setup, CUDA check  
 - **[Week 4](./week3/README.md)** → PyTorch Audio I/O, waveform & spectrogram visualization  
 - **[Week 5](./week5/README.md)** → Speech Recognition with **Wav2Vec2**, Custom Audio Transcription, Mel Spectrogram, Transformer Layer Feature Extraction
+- **[Week 7](./week7/README.md)** → Transfer Learning for Computer Vision Tutorial
 
 ---
 
