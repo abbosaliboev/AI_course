@@ -30,48 +30,6 @@ week7/
 └── README.md                    # Project documentation
 ```
 
----
-
-## Requirements
-
-- Python 3.8+  
-- PyTorch 2.x  
-- torchvision  
-- matplotlib  
-- numpy  
-
-Install required packages via:
-```bash
-pip install torch torchvision matplotlib numpy
-```
-
----
-
-## How to Run
-
-
-### 1. Setup Data Visualization
-```bash
-python !_setup.py
-python 2_visualize_data.py
-```
-
-`Figure_2.png` will be saved in the `images/` folder.
-
-### 2. Model Setup and Training
-```bash
-python 3_model_setup.py
-python 4_train_model.py
-```
-
-Trained model will be saved as `best_resnet18.pth`.
-
-### 3. Prediction Visualization
-```bash
-python 5_visualize_predictions.py
-```
-
-Prediction results will be saved as `Figure_4.png` in `images/`.
 
 ---
 
