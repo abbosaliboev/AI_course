@@ -56,7 +56,7 @@ python !_setup.py
 python 2_visualize_data.py
 ```
 
-`Figure_1.png` will be saved in the `images/` folder.
+`Figure_2.png` will be saved in the `images/` folder.
 
 ### 2. Model Setup and Training
 ```bash
@@ -71,13 +71,14 @@ Trained model will be saved as `best_resnet18.pth`.
 python 5_visualize_predictions.py
 ```
 
-Prediction results will be saved as `Figure_2.png` in `images/`.
+Prediction results will be saved as `Figure_4.png` in `images/`.
 
 ---
 
 ## Results
-**Training complete in:** 1m 17s
-**Best validation accuracy achieved:** 99.00%
+
+<img src="images/train_results.png" width="600px">
+
 
 ### Sample Dataset Visualization
 
@@ -90,14 +91,6 @@ Prediction results will be saved as `Figure_2.png` in `images/`.
 <img src="images/Figure_4.png" width="600px">
 
 *Model predictions on test images with predicted class labels*
-
----
-
-## Implementation Notes
-
-- The project is implemented to be **Windows-compatible**, using `if __name__ == "__main__"` to avoid multiprocessing errors.
-- Data is normalized using **ImageNet mean and standard deviation** for transfer learning.
-- For training on other datasets (homework), update the `data_dir` path and number of classes accordingly.
 
 ---
 

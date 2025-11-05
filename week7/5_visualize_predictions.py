@@ -20,7 +20,7 @@ data_transforms = transforms.Compose([
 # ===============================
 data_dir = os.path.join("data", "sample_computer_vision", "val")
 val_dataset = datasets.ImageFolder(data_dir, data_transforms)
-val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=4, shuffle=True)
+val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=6, shuffle=True)
 
 class_names = val_dataset.classes
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -47,11 +47,11 @@ def imshow(inp, title=None):
     inp = np.clip(inp, 0, 1)
     plt.imshow(inp)
     if title:
-        plt.title(title)
+        plt.title(title, fontsize=10)
     plt.axis('off')
 
 # ===============================
-# 5. Visualize a few predictions
+# 5. Visualize at least 6 predictions
 # ===============================
 inputs, classes = next(iter(val_loader))
 inputs = inputs.to(device)
@@ -62,9 +62,11 @@ with torch.no_grad():
     _, preds = torch.max(outputs, 1)
 
 # Show images with predicted and true labels
-plt.figure(figsize=(10, 10))
+plt.figure(figsize=(12, 8))
 for i in range(inputs.size(0)):
-    plt.subplot(2, 2, i+1)
-    imshow(inputs.cpu().data[i], title=f"pred: {class_names[preds[i]]}\ntrue: {class_names[classes[i]]}")
+    plt.subplot(2, 3, i+1)
+    imshow(inputs.cpu().data[i],
+           title=f"Pred: {class_names[preds[i]]}\nTrue: {class_names[classes[i]]}")
 
+plt.tight_layout()
 plt.show()
