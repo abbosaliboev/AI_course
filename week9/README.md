@@ -1,4 +1,4 @@
-# 📁 Week 5 – PyTorch Transfer Learning 
+# 📁 Week 9 – PyTorch Transfer Learning 
 
 This repository contains a hands-on practice and homework of **transfer learning using PyTorch**.
 
@@ -18,7 +18,7 @@ All outputs, including sample images and prediction results, are saved in the `i
 
 ## Project Structure
 ```
-week7/
+week9/
 ├── data/                        # Dataset folder (hymenoptera_data)
 ├── images/                      # Saved visualizations (Figure_1.png, Figure_2.png)
 ├── 1_setup.py                   # Pretrained ResNet18 model setup
