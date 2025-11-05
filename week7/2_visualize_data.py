@@ -6,10 +6,10 @@ from torchvision import datasets, transforms
 import os
 
 def main():
-    # 🔹 Dataset manzili
-    data_dir = os.path.join("data", "hymenoptera_data")
+    # 🔹 Dataset url
+    data_dir = os.path.join("data", "sample_computer_vision")
 
-    # 🔹 Transformlar
+    # 🔹 Transforms
     data_transforms = {
         'train': transforms.Compose([
             transforms.RandomResizedCrop(224),
@@ -27,7 +27,7 @@ def main():
         ]),
     }
 
-    # 🔹 Dataset va Dataloader
+    # 🔹 Dataset and Dataloader
     image_datasets = {
         x: datasets.ImageFolder(os.path.join(data_dir, x), data_transforms[x])
         for x in ['train', 'val']
@@ -40,7 +40,7 @@ def main():
 
     class_names = image_datasets['train'].classes
 
-    # 🔹 Tasvirni ko‘rsatish funksiyasi
+    # 🔹 show image function
     def imshow(inp, title=None):
         inp = inp.numpy().transpose((1, 2, 0))
         mean = np.array([0.485, 0.456, 0.406])
@@ -50,12 +50,12 @@ def main():
         plt.imshow(inp)
         if title is not None:
             plt.title(title)
-        plt.pause(0.001)  # plt’ni yangilash uchun
+        plt.pause(0.001)  # for updating plots
 
-    # 🔹 Train dataloaderdan batch olish
+    # 🔹 get batch from train dataloader
     inputs, classes = next(iter(dataloaders['train']))
 
-    # 🔹 Grid shaklida ko‘rsatish
+    # 🔹 Show in grid format
     out = torchvision.utils.make_grid(inputs)
     imshow(out, title=[class_names[x] for x in classes])
     plt.show()

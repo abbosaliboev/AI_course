@@ -18,7 +18,7 @@ data_transforms = transforms.Compose([
 # ===============================
 # 2. Load validation dataset
 # ===============================
-data_dir = os.path.join("data", "hymenoptera_data", "val")
+data_dir = os.path.join("data", "sample_computer_vision", "val")
 val_dataset = datasets.ImageFolder(data_dir, data_transforms)
 val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=4, shuffle=True)
 
