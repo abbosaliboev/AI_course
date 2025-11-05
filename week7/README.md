@@ -1,6 +1,6 @@
-# PyTorch Transfer Learning Practice
+# 📁 Week 5 – PyTorch Transfer Learning 
 
-This repository contains a hands-on practice and homework of **transfer learning using PyTorch**, based on the official PyTorch tutorial: [Transfer Learning for Computer Vision Tutorial](https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html).
+This repository contains a hands-on practice and homework of **transfer learning using PyTorch**.
 
 ## Project Overview
 
