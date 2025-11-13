@@ -18,7 +18,7 @@ data_transforms = transforms.Compose([
 # ===============================
 # 2. Load validation dataset
 # ===============================
-data_dir = os.path.join("data", "sample_computer_vision", "val")
+data_dir = os.path.join("data", "hymenoptera_data", "img_path='data/hymenoptera_data/val/bees/72100438_73de9f17af.jpg")
 val_dataset = datasets.ImageFolder(data_dir, data_transforms)
 val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=6, shuffle=True)
 
@@ -31,7 +31,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 model = models.resnet18()
 num_ftrs = model.fc.in_features
 model.fc = torch.nn.Linear(num_ftrs, 2)
-model.load_state_dict(torch.load("best_resnet18.pth", map_location=device))
+model.load_state_dict(torch.load("best_efficientnet_b3.pth", map_location=device))
 model = model.to(device)
 model.eval()
 
