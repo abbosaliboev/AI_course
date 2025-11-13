@@ -43,7 +43,8 @@ data/
 ---
 
 
-Results
+## Results 📈
+
 ### Training Log
 ![Training Log](images/results.png)
 
