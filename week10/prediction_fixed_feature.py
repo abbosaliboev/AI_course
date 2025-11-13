@@ -6,6 +6,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 import os
+from torchvision import datasets 
 
 # ===============================
 # 1. Device
