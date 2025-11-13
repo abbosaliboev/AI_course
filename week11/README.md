@@ -13,7 +13,7 @@ This project performs regression analysis on a student performance dataset using
 ---
 
 ## Project Structure
-
+```
 ├── Student_Performance.csv # Dataset
 ├── train_model.py # Regression model training
 ├── student_performance_model.pth # Trained PyTorch model
@@ -22,7 +22,7 @@ This project performs regression analysis on a student performance dataset using
 │ ├── eval1.png # Evaluation graph 1
 │ ├── eval2.png # Evaluation graph 2
 │ └── training_log.png # Training loss/log graph
-
+```
 ---
 
 ## How to Run
@@ -50,19 +50,3 @@ The trained model will be saved as student_performance_model.pth.
 ### Evaluation 2
 ![Evaluation 2](images/Figure_2.png)
 
-
-Model Performance on Test Set:
-
-MSE: <insert final value>
-
-RMSE: <insert final value>
-
-MAE: <insert final value>
-
-R² Score: <insert final value>
-
-Notes
-
-Make sure the CSV file is in the same folder as train_model.py
-
-The images folder contains evaluation and training graphs
