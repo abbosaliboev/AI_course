@@ -44,9 +44,9 @@ The trained model will be saved as student_performance_model.pth.
 ### Training Log
 ![Training Log](images/results.png)
 
-### Evaluation 1
+### Training and Test Loss
 ![Evaluation 1](images/Figure_1.png)
 
-### Evaluation 2
+### Actual vs Predicted Performance Index
 ![Evaluation 2](images/Figure_2.png)
 
