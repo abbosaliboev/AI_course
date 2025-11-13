@@ -1,9 +1,11 @@
 # 📁 Week 11 – LAB-Regression
 
-This project performs regression analysis on a student performance dataset using **PyTorch**. The goal is to predict the **Performance Index** of students based on several features and achieve high regression accuracy.
+Regression analysis on a student performance dataset with PyTorch to predict Performance Index.
 ---
 
 ## Dataset
+
+✨ **Fun fact:** The dataset was downloaded from [Kaggle](https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression)
 
 - File: `Student_Performance.csv`  
 - Number of samples: 10,000  
@@ -39,7 +41,7 @@ python train_model.py
 The trained model will be saved as student_performance_model.pth.
 
 
-## Results
+## Results 📈
 
 ### Training Log
 ![Training Log](images/results.png)
